@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitVerse", "RabbitVerse\RabbitVerse.csproj", "{AED03D86-BEED-4F62-B6D8-836769662122}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitVerse.Consuming", "RabbitVerse.Consuming\RabbitVerse.Consuming.csproj", "{7D518CEC-289E-4908-B0CC-33644A01C88F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AED03D86-BEED-4F62-B6D8-836769662122}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AED03D86-BEED-4F62-B6D8-836769662122}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AED03D86-BEED-4F62-B6D8-836769662122}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AED03D86-BEED-4F62-B6D8-836769662122}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D518CEC-289E-4908-B0CC-33644A01C88F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D518CEC-289E-4908-B0CC-33644A01C88F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D518CEC-289E-4908-B0CC-33644A01C88F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D518CEC-289E-4908-B0CC-33644A01C88F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
