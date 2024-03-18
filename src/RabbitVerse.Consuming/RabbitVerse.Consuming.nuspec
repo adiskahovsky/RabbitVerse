@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>RabbitVerse.Consuming</id>
+    <version>1.0.0</version>
+    <title>RabbitVerse.Consuming</title>
+    <authors>Adis Kahovsky</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <repository type="git" url="https://github.com/adiskahovsky/RabbitVerse" />
+    <description>Library to consuming rabbit commands</description>
+    <releaseNotes></releaseNotes>
+    <copyright></copyright>
+    <tags></tags>
+  </metadata>
+</package>
