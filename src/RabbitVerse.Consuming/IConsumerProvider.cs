@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+
 namespace RabbitVerse.Consuming
 {
     public interface IConsumerProvider

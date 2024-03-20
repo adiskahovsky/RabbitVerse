@@ -2,6 +2,8 @@ using System.Text;
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 using System.Text.Json;
+using System.Threading.Tasks;
+using System.Collections.Generic;
 
 namespace RabbitVerse.Consuming
 {
@@ -34,7 +36,7 @@ namespace RabbitVerse.Consuming
                 var dleArgs = new Dictionary<string, object>();
 
                 if (item.Retry != null)
-                    dleArgs.Add("x-message-ttl", item.Retry.Value.TotalMilliseconds); // 1 минута
+                    dleArgs.Add("x-message-ttl", (int)item.Retry.Value.TotalMilliseconds); // 1 минута
                 dleArgs.Add("x-dead-letter-exchange", exchangeName);
 
                 var dleExchange = $"dle.{exchangeName}";
@@ -82,10 +84,10 @@ namespace RabbitVerse.Consuming
                 };
 
                 channel.BasicConsume(queueName, false, consumer);
-            }
+            } 
 
             var completionSource = new TaskCompletionSource<bool>();
-            completionSource.Task.Wait();
+            await completionSource.Task;
         }
     }
 }

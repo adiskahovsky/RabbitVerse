@@ -1,4 +1,4 @@
-using RabbitVerse.Consuming.Models;
+using System;
 
 namespace RabbitVerse.Consuming
 {

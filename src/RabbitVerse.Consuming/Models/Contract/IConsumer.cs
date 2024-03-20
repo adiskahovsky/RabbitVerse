@@ -1,3 +1,6 @@
+using System;
+using System.Threading.Tasks;
+
 namespace RabbitVerse.Consuming
 {
     public interface IConsumer<TPayload> : IConsumer
